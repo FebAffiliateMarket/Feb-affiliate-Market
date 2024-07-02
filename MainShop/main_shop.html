@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Shop</title>
+    <link rel="stylesheet" href="../MainShop/main_shop_styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Main Shop</h1>
+        <div class="subscription-container">
+            <h2>Interested in selling your products here?</h2>
+            <p>Subscribe to become a seller or affiliate!</p>
+            <button onclick="subscribe()">Subscribe Now</button>
+        </div>
+        <div class="login-container">
+            <button onclick="navigateToLogin()">Seller Login</button>
+        </div>
+        <div class="inventory-container">
+            <h2>Products</h2>
+            <div id="productGrid" class="product-grid">
+                <!-- Products will be displayed here -->
+            </div>
+        </div>
+    </div>
+    <script src="../MainShop/main_shop_scripts.js"></script>
+</body>
+</html>
